@@ -1,0 +1,37 @@
+.spkuang{
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+  transition: 1s;
+  background-color: black;
+}
+
+.spkuang1{
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+  transition: 1s;
+  background-color: black;
+}
+
+.buj85{
+    display: flex;
+}
+.spkuang31{
+  width: 300px;
+  height: 430px;
+  border-radius: 50px;
+  border: 3px solid rgb(255, 255, 255);
+transition: 1s;
+background-color: black;
+}
+.spkuang65{
+  width: 600px;
+  height: 430px;
+  border-radius: 50px;
+  border: 3px solid rgb(255, 255, 255);
+transition: 1s;
+background-color: black;
+}

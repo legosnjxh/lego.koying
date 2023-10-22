@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="tp/biaot.jpg" />
+</head>
+<style>
+  *{
+    margin: auto;
+    padding: auto;
+  }
+  body{
+    background-color: rgba(61, 145, 255, 0.7);
+  }
+   .bdjm{
+    background-color: rgba(255, 19, 19, 0.8);
+    width: 300px;
+    height:auto;
+  border-radius: 14px;
+  margin-top: 25%;
+   }
+   .biat{
+    font-size: 30px;
+    margin-top: 9px;
+    transition: 2s;
+   }
+   .yd{
+    margin-left: 19%;
+    margin-bottom: 10px;
+   }
+   .tb{
+    width: 280px;
+    height: auto;
+    position: relative;
+    padding-top: 0.2px;
+   }
+   .dc{
+    width: 280px;
+    height: 30px;
+    display: none;
+   }
+   .dc2{
+    width: 280px;
+    height: 100px;
+    display: none;
+    margin-top: 6px;
+   }
+   .tb:hover .biat{
+    font-size: 32px;
+    color: aqua;
+   }
+   .tb:hover .dc{
+    display: block;
+   }
+   .tb:hover .dc2{
+    display: block;
+   }
+   .lys{
+    border-radius: 3px;
+   }
+   .yd2{
+    margin-left: 30px;
+   }
+   .zz{
+    text-decoration: none;
+    color: #000;
+   }
+   .hd{
+    color: blue;
+    transition: 3s;
+   }
+   video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    z-index: -99;
+    
+}
+source{
+    width: 100%;
+   height: 100%;
+    height: auto;
+    width: auto;
+}
+</style>
+
+<body>
+  <form action="dengru1.html" id="hf">
+
+    <video id="g" autoplay loop muted>
+      <source src="视频/背景.mp4"/>
+       </video>    <div class="bdjm">
+<div class="tb"><p class="biat" align="center">注册</p><br />
+<div  class="dc"><p class="yd">账号<input type="text" class="lys" name="zh" id="zha"/></p></div>
+<div class="dc"><p class="yd">邮箱<input type="text" class="lys"/></p><br /></div>
+<div class="dc2"><p class="yd">密码<input type="password" class="lys" name="mm" id="mim"/></p>
+
+  <input type="button" value=注册 id="dr"/><br />
+  <span id="scs" class="hd"></span><br/>
+  <span id="bqc"></span><br />
+  <span id="gf"></span>
+ 
+
+</div>
+</div>
+
+</div>
+</form>
+<script src="js/dr.js">
+</script>
+</body>
+
+</html>
